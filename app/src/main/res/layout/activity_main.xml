@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/ima"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/prasuntojo" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Dear Tojo,I hope this letter finds you well and that you are enjoying all the adventures that come with being a kid! My name is Prasun and I am your uncle. Even though we may not see each other often, I think about you often and I wanted to take some time to write you a letter.
+Firstly, I want to tell you how proud I am of you. You have grown so much since the last time we saw each other, and I know that you are capable of achieving anything you set your mind to. You are curious, intelligent, and have a great sense of humor. I always enjoy hearing your stories and jokes when we talk on the phone with your mom.
+I remember when you were born, and how excited we all were to welcome you into our family. You were so tiny and fragile, but you have grown into a strong and independent young person. I love watching you discover new things and learn about the world around you. I hope you continue to ask questions and explore, because that is how we grow and learn.
+Speaking of learning, I hope that you are enjoying school and all the new things you are learning. Education is so important, and I know that you take it seriously. Remember that learning is not just limited to the classroom, but it can happen anywhere and at any time. You can learn from your friends, your family, and even from your own experiences. Keep your mind open and always be willing to learn something new.
+I also hope that you are taking care of yourself both physically and mentally. It's important to eat well, get enough sleep, and exercise regularly. But it's also important to take care of your mental health. Remember that it's okay to ask for help when you need it, and that there is no shame in talking to someone if you are feeling sad or overwhelmed.
+I know that you have many interests and hobbies, and I encourage you to keep exploring them. Whether it's playing sports, reading books, or playing video games, find what makes you happy and pursue it. Don't be afraid to try new things too, because you never know what you might discover.
+Lastly, I want to remind you how much you are loved. You have a wonderful family who cares about you very much, and I am grateful to be a part of that family. Remember that you are never alone, and that there will always be someone who loves you and supports you no matter what.
+I hope this letter finds you well and that you know how special you are to me and to our family. Keep being the amazing person that you are, and never stop chasing your dreams.
+Love,Prasun" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Tojo's Pictures"/>
+        </LinearLayout>
+    </ScrollView>
+        <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/t1"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button2"
+        android:text="Pictures"/>
+
+</LinearLayout>
